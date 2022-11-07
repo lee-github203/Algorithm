@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+.vs
+./Boj/gmon.out
+Boj/.cph
+Boj/*.exe
+AtCoder/BootcampMed/.cph
+AtCoder/BootcampMed/*.bin
+AtCoder/Medium 100/.cph
+AtCoder/Medium 100/*.bin
+AtCoder/.cph
+USACO/2009Bronze/.cph
+USACO/2009Sliver/.cph
