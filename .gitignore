@@ -32,4 +32,11 @@
 *.app
 
 # Visual Studio
-.vs
+*.vs
+*.vcxproj
+*.pdb
+*.ilk
+*.log
+*.obj
+*.idb
+*.tlog
