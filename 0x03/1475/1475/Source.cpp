@@ -9,7 +9,7 @@ int main(void)
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	int arr1[ARRAY_LENGTH_I][ARRAY_LENGTH_J] = { 0, };
+	int arr[ARRAY_LENGTH_I][ARRAY_LENGTH_J] = { 0, };
 	string input_str;
 	size_t i;
 	size_t j;
@@ -37,14 +37,14 @@ int main(void)
 		{			
 			if (index == 6 || index == 9)
 			{
-				if (arr1[j][6] == 0)
+				if (arr[j][6] == 0)
 				{
-					arr1[j][6] = 1;
+					arr[j][6] = 1;
 					break;
 				}
-				else if (arr1[j][9] == 0)
+				else if (arr[j][9] == 0)
 				{
-					arr1[j][9] = 1;
+					arr[j][9] = 1;
 					break;
 				}
 				else
@@ -52,9 +52,9 @@ int main(void)
 					++j;
 				}
 			}
-			else if (arr1[j][index] == 0)
+			else if (arr[j][index] == 0)
 			{
-				arr1[j][index] = 1;
+				arr[j][index] = 1;
 				break;
 			}
 			else
@@ -86,7 +86,7 @@ int main(void)
 				exit_count = 1;
 				break;
 			}
-			else if (arr1[i][j] == 0)
+			else if (arr[i][j] == 0)
 			{
 				++j;
 			}
